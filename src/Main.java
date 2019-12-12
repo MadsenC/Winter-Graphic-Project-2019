@@ -16,12 +16,19 @@ public class Main extends Canvas {
     public void paint(Graphics g) {
         Expo.setColor(g, 67, 209, 190);
         Expo.fillCircle(g, 500, 312, 300);
+        Expo.delay(500);
         Globe.drawSnow(g);
+        Expo.delay(500);
         Globe.drawMountain(g);
+        Expo.delay(500);
         Globe.drawHills(g);
+        Expo.delay(500);
         Globe.drawHouse(g);
+        Expo.delay(500);
         Globe.drawTrees(g);
+        Expo.delay(500);
         Globe.drawSun(g);
+        Expo.delay(500);
         Globe.drawGlobe(g);
     }
 }
